@@ -1,31 +1,4 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@Empathizer 
-kingk4
-/
-Scrapy-Spider
-Public
-Fork your own copy of kingk4/Scrapy-Spider
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Scrapy-Spider/Amazon.py /
-@kingk4
-kingk4 Add files via upload
-Latest commit 4299674 on Feb 27, 2022
- History
- 1 contributor
-73 lines (62 sloc)  3.25 KB
+
 
 import scrapy
 from scrapy.utils.response import open_in_browser
@@ -100,18 +73,4 @@ class AmazonSpider(scrapy.Spider):
             }
 
            yield amazon_dict
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Scrapy-Spider/Amazon.py at main · kingk4/Scrapy-Spider
+
